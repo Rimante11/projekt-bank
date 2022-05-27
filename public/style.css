@@ -1,0 +1,121 @@
+header{
+  background-color: rgb(155, 117, 79);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.bankText {
+  padding-top: 20px;
+  width: 600px;
+}
+
+main{
+  background-color: rgb(155, 117, 79);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  height: 350px;
+  /*padding: 20px;*/
+}
+
+#registerform, #loginform {
+  background-color: rgb(239, 203, 159);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 350px;
+  height: auto;
+  padding: 20px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+input{
+  background-color: azure;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 255, 0.378);
+  width: 200px;
+}
+
+label{
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+}
+
+h4{
+  font-family: 'Smokum', cursive;
+  font-size: 26px;
+}
+
+button{
+  font-family: 'Smokum', cursive;
+  font-size: 18px;
+  background-color: rgb(32, 32, 194);
+  color: azure;
+  border: 2px solid rgb(216, 111, 55);
+  border-radius: 5px;
+  width: 120px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(62, 183, 223);
+
+}
+
+.deleteBtn, .logoutBtn{
+  margin-left: 66px;
+  margin-top: 10px;
+}
+
+hr{
+  width: 90%;
+}
+
+#accountbox{
+  background-color: rgb(239, 203, 159);
+  border-radius: 5px;
+  padding: 30px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+}
+
+#blaText{
+  font-family: 'Smokum', cursive;
+  font-size: 24px;
+}
+
+#totaldiv{
+  background-color: rgb(239, 203, 159);
+  padding: 20px;
+  padding-top: 50px;
+  border-radius: 5px;
+  margin-left: 50px;
+  width: 250px;
+}
+
+#totalform, #withdrawform{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#headerhr{
+  background-color: rgb(229, 229, 219);
+  border: 2px solid rgb(229, 229, 219);
+  border-radius: 2px;
+}
+
+footer{
+  background-color: rgb(187, 150, 113);
+  padding: 20px;
+  font-family: 'Smokum', cursive;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 0px 5px 5px;
+}

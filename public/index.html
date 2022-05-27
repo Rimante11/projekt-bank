@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Smokum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <img src="/images/title.png" alt="bankText" class="bankText">
+    <hr id="headerhr">
+  </header> 
+  
+  <main>
+    <div id="accountbox">
+      <h3 id="blaText">Users account information</h3>
+      <hr>
+    </div>
+
+    <form action="" id="registerform">
+        <h4>Register</h4>
+        <hr>
+        <label for="username">Name</label>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="total">Total</label>
+        <input type="number" name="total" id="total">
+        <br>
+        <button>Save</button>
+    </form>
+    <br><br>
+    <form action="" id="loginform">
+        <h4>Login</h4>
+        <hr>
+        <label for="loginname">Name</label>
+        <input type="text" id="loginname" name="loginname">
+        <br>
+        <label for="loginpass">Password</label>
+        <input type="text" id="loginpass" name="loginpass">
+        <br>
+        <button>Login</button>
+    </form>
+    <br>
+    
+
+    <div id="totaldiv">
+      <form action="" id="totalform">
+          <label for="totalin">Add to total</label>
+          <input type="number" id="totalin" name="totalin" min="0">
+          <button>Add</button>
+      </form>
+
+      <form action="" id="withdrawform">
+        <label for="withdraw">Withdraw from total</label>
+        <input type="number" id="withdraw" name="withdraw" min="0">
+        <button>Withdraw</button>
+      </form>
+
+      <form action="" id="deleteform">
+        <button class="deleteBtn">Delete account</button>
+      </form>
+
+      <form action="" id="logoutform">
+        <button class="logoutBtn">Log out</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>Bank Project 2022</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
